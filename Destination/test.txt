@@ -1,0 +1,12 @@
+{
+  "title": "title",
+  "description": "fish",
+  "installation": "f",
+  "usage": "none",
+  "contributing": "bue",
+  "tests": "ijlijl",
+  "license": "Apache",
+  "githubUsername": "asf",
+  "email": "F@gmail.com",
+  "fileName": "test"
+}
