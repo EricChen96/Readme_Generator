@@ -12,11 +12,16 @@ const questions = [
     "Please enter the TEST INSTRUCTIONS of the application: ",
     "Please choose the LICENSE for your application: ",
     "Please enter your Github USERNAME: ",
-    "Please enter your EMAIL: " 
+    "Please enter your EMAIL: ",
+    "Please enter the file's name: "
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileName, data) {
+    fs.writeFile(`./Destination/${fileName}.txt`, data, (err) =>
+        err ? console.error(err) : console.log('Success!')
+    );
+}
 
 // TODO: Create a function to initialize app
 function init()
@@ -67,12 +72,15 @@ inquirer
             message: questions[8],
             name: "email"
         },
+        {
+            type: "input",
+            message: questions[9],
+            name: "fileName"
+        }
     ])
     .then(answers => {
         // const tempString = JSON.stringify(answers, null, 2);
-        // fs.writeFile(`${answers.name}.txt`, tempString, (err) =>
-        //     err ? console.error(err) : console.log('Success!')
-        // );
+
     })
     .catch(error => {
         if (error.isTtyError) {
