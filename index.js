@@ -13,7 +13,7 @@ const questions = [
     "Please choose the LICENSE for your application: ",
     "Please enter your Github USERNAME: ",
     "Please enter your EMAIL: ",
-    "Please enter the file's name: "
+    "Please enter the FILE'S NAME: "
 ];
 
 // TODO: Create a function to write README file
@@ -60,7 +60,7 @@ function init() {
             {
                 type: "list",
                 message: questions[6],
-                choices: ["Apache","MIT License","GNU General Public License v3.0"],
+                choices: ["Apache License 2.0", "ISC License", "GNU GPLv2.0", "GNU GPLv3.0", "MIT License"],
                 name: "license"
             },
             {
@@ -82,7 +82,7 @@ function init() {
         .then(answers => {
             const tempString = JSON.stringify(answers, null, 2);
             console.log(answers.fileName);
-            writeToFile(answers.fileName,tempString);
+            writeToFile(answers.fileName, tempString);
         })
         .catch(error => {
             if (error.isTtyError) {
