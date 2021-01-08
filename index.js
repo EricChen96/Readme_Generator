@@ -85,11 +85,7 @@ function init() {
             writeToFile(answers.fileName, tempString);
         })
         .catch(error => {
-            if (error.isTtyError) {
-                console.log(error);
-            } else {
-                console.log(error);
-            }
+            console.log(error);
         });
 }
 
