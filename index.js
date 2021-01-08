@@ -69,10 +69,10 @@ inquirer
         },
     ])
     .then(answers => {
-        const tempString = JSON.stringify(answers, null, 2);
-        fs.writeFile(`${answers.name}.txt`, tempString, (err) =>
-            err ? console.error(err) : console.log('Success!')
-        );
+        // const tempString = JSON.stringify(answers, null, 2);
+        // fs.writeFile(`${answers.name}.txt`, tempString, (err) =>
+        //     err ? console.error(err) : console.log('Success!')
+        // );
     })
     .catch(error => {
         if (error.isTtyError) {
