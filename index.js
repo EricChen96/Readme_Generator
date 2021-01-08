@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 var inquirer = require("inquirer");
-const fs = require('fs');
+const fs = require("fs");
+const markdown = require("./utils/generateMarkdown.js")
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -18,7 +19,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(`./Destination/${fileName}.txt`, data, (err) =>
+    fs.writeFile(`./Destination/${fileName}.md`, data, (err) =>
         err ? console.error(err) : console.log('Success!')
     );
 }
@@ -80,15 +81,14 @@ function init() {
             }
         ])
         .then(answers => {
-            const tempString = JSON.stringify(answers, null, 2);
-            console.log(answers.fileName);
+            const tempString = markdown.generateMarkdown(answers);
             writeToFile(answers.fileName, tempString);
         })
         .catch(error => {
             if (error.isTtyError) {
-                // Prompt couldn't be rendered in the current environment
+                console.log(error);
             } else {
-                // Something else when wrong
+                console.log(error);
             }
         });
 }
@@ -96,3 +96,4 @@ function init() {
 
 // Function call to initialize app
 init();
+

@@ -70,7 +70,7 @@ function renderLicenseSection(license) {
       limitations under the License.`;
       break;
     case "ISC License":
-      return `Copyright (c) ${year}, [fullname]
+      return `Copyright (c) ${year}, [name of copyright owner]
 
       Permission to use, copy, modify, and/or distribute this software for any
       purpose with or without fee is hereby granted, provided that the above
@@ -85,7 +85,7 @@ function renderLicenseSection(license) {
       OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.`;
       break;
     case "GNU GPLv2.0":
-      return `Copyright (C) ${year}  <name of author>
+      return `Copyright (C) ${year}  [name of copyright owner]
 
       This program is free software; you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
@@ -102,7 +102,7 @@ function renderLicenseSection(license) {
       51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.`;
       break;
     case "GNU GPLv3.0":
-      return `Copyright (C) ${year}  <name of author>
+      return `Copyright (C) ${year}  [name of copyright owner]
 
       This program is free software: you can redistribute it and/or modify
       it under the terms of the GNU General Public License as published by
@@ -120,7 +120,7 @@ function renderLicenseSection(license) {
     case "MIT License":
       return `MIT License
 
-      Copyright (c) ${year} [fullname]
+      Copyright (c) ${year} [name of copyright owner]
       
       Permission is hereby granted, free of charge, to any person obtaining a copy
       of this software and associated documentation files (the "Software"), to deal
@@ -148,34 +148,40 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `${renderLicenseBadge(data.license)}
-  # ${data.title}
+# ${data.title}
 
-  ## Description
-  ${data.description}
-  
-  ## Table of Contents
+## Description
+${data.description}
 
-  ## Installation
-  ${data.installation}
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Credits](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-  ## Usage
-  ${data.usage}
+## Installation
+${data.installation}
 
-  ## License
-  ${data.license}
+## Usage
+${data.usage}
 
-  ## Contributing
-  ${data.contributing}
+## License
+${renderLicenseLink(data.license)} <br>
+${renderLicenseSection(data.license)}
 
-  ## Tests
-  ${data.tests}
+## Contributing
+${data.contributing}
 
-  ## Questions
-  ${data.githubUsername}
-  ${data.email}
+## Tests
+${data.tests}
 
+## Questions
+Visit my other works at [https://github.com/${data.githubUsername}/](https://github.com/${data.githubUsername}/). 
 
+If you have any questions, feel free to contact me at ${data.email}.
 `;
 }
 
-module.exports = generateMarkdown;
+module.exports = { generateMarkdown };
