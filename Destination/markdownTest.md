@@ -1,32 +1,28 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Markdown Generator
 
-![README.md Generator](./assets/Main_Page_Screenshot.jpg)
-![README.md Generator](./assets/Project_Page_Screenshot.png)
-
-[Link to Github repository](https://github.com/EricChen96/Readme_Generator) <br>
-[Link to video](https://www.youtube.com/watch?v=mUJ5uQBKxL4&feature=youtu.be) <br>
-
 ## Description
-The following code would ask the user a series of questions about their project. Using their answers, it'll create a README.md file with proper section titles and content and links
+How to make Markdown Generator
 
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
+* [Credits](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation
-Go to Github and install
+Go to Github and Install
 
 ## Usage
+Anyway
 
 ## License
 [Link to MIT License](https://opensource.org/licenses/MIT) <br>
 MIT License
 
-      Copyright (c) 2021 [Eric Chen]
+      Copyright (c) 2021 [name of copyright owner]
       
       Permission is hereby granted, free of charge, to any person obtaining a copy
       of this software and associated documentation files (the "Software"), to deal
@@ -45,9 +41,12 @@ MIT License
       LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
       OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
       SOFTWARE.
-      
+
+## Contributing
+None
+
 ## Tests
-In your terminal, enter 'node index.js'. Then proceed to answer the prompts.
+Don't break it
 
 ## Questions
 Visit my other works at [https://github.com/EricChen96/](https://github.com/EricChen96/). 

@@ -1,53 +1,47 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  # Test
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# test
 
-  ## Description
-  Walk to school
+## Description
+description test
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Credits](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
+## Installation
+install
+
+## Usage
+dont use
+
+## License
+[Link to GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0) <br>
+Copyright (C) 2021  [name of copyright owner]
+
+      This program is free software: you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation, either version 3 of the License, or
+      (at your option) any later version.
   
-  ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Credits](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+  
+      You should have received a copy of the GNU General Public License
+      along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-  ## Installation
-  Download
+## Contributing
+no one
 
-  ## Usage
-  No returns
+## Tests
+test 123
 
-  ## License
-  [Link to MIT License](https://opensource.org/licenses/MIT)
-  MIT License
+## Questions
+Visit my other works at [https://github.com/EricChen96/](https://github.com/EricChen96/). 
 
-      Copyright (c) 2021 [fullname]
-      
-      Permission is hereby granted, free of charge, to any person obtaining a copy
-      of this software and associated documentation files (the "Software"), to deal
-      in the Software without restriction, including without limitation the rights
-      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-      copies of the Software, and to permit persons to whom the Software is
-      furnished to do so, subject to the following conditions:
-      
-      The above copyright notice and this permission notice shall be included in all
-      copies or substantial portions of the Software.
-      
-      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-      SOFTWARE.
-
-  ## Contributing
-  Cite
-
-  ## Tests
-  Testing 1 2 3
-
-  ## Questions
-  username
-  john@gmail.com
+If you have any questions, feel free to contact me at ericchen201896@gmail.com.
