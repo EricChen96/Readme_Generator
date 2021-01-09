@@ -1,14 +1,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Markdown Generator
 
-![README.md Generator](./assets/Main_Page_Screenshot.jpg)
-![README.md Generator](./assets/Project_Page_Screenshot.png)
+![README.md Generator](./Assets/README_Screenshot.png)
+![README.md Preview Generator](./Assets/README_Preview_Screenshot.png)
 
 [Link to Github repository](https://github.com/EricChen96/Readme_Generator) <br>
 [Link to video](https://www.youtube.com/watch?v=mUJ5uQBKxL4&feature=youtu.be) <br>
 
 ## Description
-The following code would ask the user a series of questions about their project. Using their answers, it'll create a README.md file with proper section titles and content and links
+The following code would ask the user a series of questions about their project. Using their answers, it'll create a `README.md` file with proper section titles and content and links
 
 ## Table of Contents
 * [Installation](#installation)
